@@ -1,0 +1,9 @@
+description,command
+list files in directory,ls
+check current directory,pwd
+find large files,du -ah / | sort -rh | head -n 10
+check disk usage,df -h
+check memory usage,free -m
+check running processes,ps aux
+find a file by name,find / -name filename
+check network connections,netstat -tulnp
